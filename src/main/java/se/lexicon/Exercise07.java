@@ -8,6 +8,14 @@ public class Exercise07 {
    * Odd Array: 1 7 9
    */
   public static void ex7() {
+    int[] numbers= {1,2,4,7,9,12 };
+    System.out.println(" Odd Array: ");
+    for(int i = 0 ;i<numbers.length;i++){
+      if(numbers[i]%2 != 0){
+        System.out.print(numbers[i] + "\t");
+      }
+
+    }
 
   }
 
